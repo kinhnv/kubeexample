@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: service1
+  labels:
+    name: service1
+spec:
+  containers:
+  - name: service1
+    image: kinhnv1801/kubeexample:service1
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-service1
+spec:
+  selector:
+    name: service1
+  ports:
+  - port: 80
+    targetPort: 80
+  type: NodePort
+

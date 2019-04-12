@@ -1,0 +1,14 @@
+/home/administrator/Project/KubeExample/ApiGateway/obj/Debug/netcoreapp2.2/ApiGateway.csprojAssemblyReference.cache
+/home/administrator/Project/KubeExample/ApiGateway/obj/Debug/netcoreapp2.2/ApiGateway.csproj.CoreCompileInputs.cache
+/home/administrator/Project/KubeExample/ApiGateway/obj/Debug/netcoreapp2.2/ApiGateway.RazorAssemblyInfo.cache
+/home/administrator/Project/KubeExample/ApiGateway/obj/Debug/netcoreapp2.2/ApiGateway.RazorAssemblyInfo.cs
+/home/administrator/Project/KubeExample/ApiGateway/obj/Debug/netcoreapp2.2/ApiGateway.AssemblyInfoInputs.cache
+/home/administrator/Project/KubeExample/ApiGateway/obj/Debug/netcoreapp2.2/ApiGateway.AssemblyInfo.cs
+/home/administrator/Project/KubeExample/ApiGateway/bin/Debug/netcoreapp2.2/ApiGateway.deps.json
+/home/administrator/Project/KubeExample/ApiGateway/bin/Debug/netcoreapp2.2/ApiGateway.runtimeconfig.json
+/home/administrator/Project/KubeExample/ApiGateway/bin/Debug/netcoreapp2.2/ApiGateway.runtimeconfig.dev.json
+/home/administrator/Project/KubeExample/ApiGateway/bin/Debug/netcoreapp2.2/ApiGateway.dll
+/home/administrator/Project/KubeExample/ApiGateway/bin/Debug/netcoreapp2.2/ApiGateway.pdb
+/home/administrator/Project/KubeExample/ApiGateway/obj/Debug/netcoreapp2.2/ApiGateway.RazorTargetAssemblyInfo.cache
+/home/administrator/Project/KubeExample/ApiGateway/obj/Debug/netcoreapp2.2/ApiGateway.dll
+/home/administrator/Project/KubeExample/ApiGateway/obj/Debug/netcoreapp2.2/ApiGateway.pdb

@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/administrator/Project/KubeExample/ApiGateway/ApiGateway.csproj": {}
+  },
+  "projects": {
+    "/home/administrator/Project/KubeExample/ApiGateway/ApiGateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/administrator/Project/KubeExample/ApiGateway/ApiGateway.csproj",
+        "projectName": "ApiGateway",
+        "projectPath": "/home/administrator/Project/KubeExample/ApiGateway/ApiGateway.csproj",
+        "packagesPath": "/home/administrator/.nuget/packages/",
+        "outputPath": "/home/administrator/Project/KubeExample/ApiGateway/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/administrator/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[13.5.0, )"
+            },
+            "Ocelot.Provider.Kubernetes": {
+              "target": "Package",
+              "version": "[13.5.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

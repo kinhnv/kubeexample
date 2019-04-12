@@ -1,0 +1,23 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/values",
+      "ServiceName": "service-service1",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5000",
+    "ServiceDiscoveryProvider": {
+      "Host": "192.168.1.62",
+      "Port": 6443,
+      "Token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IiJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJkZWZhdWx0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6ImRlZmF1bHQtdG9rZW4tNWQ2bnoiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoiZGVmYXVsdCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjFiODdjMTY5LTU5OTMtMTFlOS1hNWY2LTU0YTA1MGVhYmY0OSIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDpkZWZhdWx0OmRlZmF1bHQifQ.jgUq58dRaMIl6heoUNtzBFK9k8HWcr3ZfHxmFZesufNn6pAz_uL-STr-6ApytPyY2wI8Pt3mSV_y6CDr4iDl1T-wsmlE4coER5zThXqydYITi7wVz5cT3E3qmeKB1yapc0M-ZBL4r1OO75pQjTZp7apU4A8oK7IessDpFRvveo4B98CPJbIES13RyaH_LCznX300yoNf2AK3ZXhBlPT9sPQmdEPMGRGB1Uk-H65UuggD5HT5KMbm4elEeucFk-BYxP2zGmlxnh--c9ZFkLeA9sckDzRYhrPTnRVG-0rvHMVELY8Ab5p9dM98hO-apnnmB_Le1MKAzrftVT9YaWFwMw",
+      "Namespace": "default",
+      "Type": "kube"
+    }
+  }
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/administrator/Project/KubeExample/ApiGateway/ApiGateway.csproj": {}
+    "/home/administrator/Project/kubeexample/ApiGateway/ApiGateway.csproj": {}
   },
   "projects": {
-    "/home/administrator/Project/KubeExample/ApiGateway/ApiGateway.csproj": {
+    "/home/administrator/Project/kubeexample/ApiGateway/ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/administrator/Project/KubeExample/ApiGateway/ApiGateway.csproj",
+        "projectUniqueName": "/home/administrator/Project/kubeexample/ApiGateway/ApiGateway.csproj",
         "projectName": "ApiGateway",
-        "projectPath": "/home/administrator/Project/KubeExample/ApiGateway/ApiGateway.csproj",
+        "projectPath": "/home/administrator/Project/kubeexample/ApiGateway/ApiGateway.csproj",
         "packagesPath": "/home/administrator/.nuget/packages/",
-        "outputPath": "/home/administrator/Project/KubeExample/ApiGateway/obj/",
+        "outputPath": "/home/administrator/Project/kubeexample/ApiGateway/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"

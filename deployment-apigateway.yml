@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apigateway
+spec:
+  selector:
+    matchLabels:
+      app: apigateway
+  template:
+    metadata:
+      labels:
+        app: apigateway
+    spec:
+      containers:
+      - name: apigateway
+        image: kinhnv1801/kubeexample:apigateway
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: apigateway
+spec:
+  type: LoadBalancer
+  selector:
+    app: myapp
+  ports:
+  - nodePort: 30000
+    port: 80
+    targetPort: 80
+

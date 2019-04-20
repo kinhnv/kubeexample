@@ -3,15 +3,32 @@
     {
       "DownstreamPathTemplate": "/api/values",
       "DownstreamScheme": "http",
-      "UpstreamPathTemplate": "/values",
+      "UpstreamPathTemplate": "/service1",
       "ServiceName": "service-service1",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/service2",
+      "ServiceName": "service-service2",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/service3",
+      "ServiceName": "service-service3",
       "UpstreamHttpMethod": [
         "GET"
       ]
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5000",
     "ServiceDiscoveryProvider": {
       "Host": "192.168.1.18",
       "Port": 6443,

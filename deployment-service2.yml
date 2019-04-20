@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: service1
+  name: service2
 spec:
   selector:
     matchLabels:
-      app: service1
+      app: service2
   replicas: 1
   template:
     metadata:
       labels:
-        app: service1
+        app: service2
     spec:
       containers:
-      - name: service1
-        image: kinhnv1801/kubeexample:service1
+      - name: service2
+        image: kinhnv1801/kubeexample:service2
         resources:
           limits:
             memory: "128Mi"
@@ -25,10 +25,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: service-service1
+  name: service-service2
 spec:
   selector:
-    app: service1
+    app: service2
   ports:
   - port: 80
     targetPort: 80

@@ -1,0 +1,16 @@
+version: "3"
+services:
+  web:
+    build: .
+    environment: 
+      APPLICATION_ENVIRONMENT: Docker
+    ports: 
+      - "80:80"
+    depends_on:
+      - db
+  db:
+    image: mcr.microsoft.com/mssql/server
+    environment: 
+      SA_PASSWORD: "VanKinh1996"
+      ACCEPT_EULA: "Y"
+

@@ -10,19 +10,28 @@
       ]
     },
     {
-      "DownstreamPathTemplate": "/api/values",
+      "DownstreamPathTemplate": "/api/products",
       "DownstreamScheme": "http",
-      "UpstreamPathTemplate": "/service2",
-      "ServiceName": "service-service2",
+      "UpstreamPathTemplate": "/service1/products",
+      "ServiceName": "service-service1",
       "UpstreamHttpMethod": [
-        "GET"
+        "GET", "POST"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/products/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/service1/products/{id}",
+      "ServiceName": "service-service1",
+      "UpstreamHttpMethod": [
+        "GET", "PUT", "DELETE"
       ]
     },
     {
       "DownstreamPathTemplate": "/api/values",
       "DownstreamScheme": "http",
-      "UpstreamPathTemplate": "/service3",
-      "ServiceName": "service-service3",
+      "UpstreamPathTemplate": "/service2",
+      "ServiceName": "service-service2",
       "UpstreamHttpMethod": [
         "GET"
       ]

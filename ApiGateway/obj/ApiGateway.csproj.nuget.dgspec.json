@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/home/administrator/Project/kubeexample/ApiGateway/ApiGateway.csproj": {}
+    "D:\\Projects\\kubeexample\\ApiGateway\\ApiGateway.csproj": {}
   },
   "projects": {
-    "/home/administrator/Project/kubeexample/ApiGateway/ApiGateway.csproj": {
+    "D:\\Projects\\kubeexample\\ApiGateway\\ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/administrator/Project/kubeexample/ApiGateway/ApiGateway.csproj",
+        "projectUniqueName": "D:\\Projects\\kubeexample\\ApiGateway\\ApiGateway.csproj",
         "projectName": "ApiGateway",
-        "projectPath": "/home/administrator/Project/kubeexample/ApiGateway/ApiGateway.csproj",
-        "packagesPath": "/home/administrator/.nuget/packages/",
-        "outputPath": "/home/administrator/Project/kubeexample/ApiGateway/obj/",
+        "projectPath": "D:\\Projects\\kubeexample\\ApiGateway\\ApiGateway.csproj",
+        "packagesPath": "C:\\Users\\Kinh\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\kubeexample\\ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/administrator/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Kinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projects\\kubeexample\\KubeClient\\KubeClient.csproj": {
+                "projectPath": "D:\\Projects\\kubeexample\\KubeClient\\KubeClient.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -63,6 +69,74 @@
             "Ocelot.Provider.Kubernetes": {
               "target": "Package",
               "version": "[13.5.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\kubeexample\\KubeClient\\KubeClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\kubeexample\\KubeClient\\KubeClient.csproj",
+        "projectName": "KubeClient",
+        "projectPath": "D:\\Projects\\kubeexample\\KubeClient\\KubeClient.csproj",
+        "packagesPath": "C:\\Users\\Kinh\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\kubeexample\\KubeClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "BouncyCastle.Crypto.dll": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
             }
           },
           "imports": [

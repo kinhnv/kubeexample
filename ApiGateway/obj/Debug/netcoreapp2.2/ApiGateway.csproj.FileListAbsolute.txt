@@ -12,3 +12,17 @@
 /home/administrator/Project/KubeExample/ApiGateway/obj/Debug/netcoreapp2.2/ApiGateway.RazorTargetAssemblyInfo.cache
 /home/administrator/Project/KubeExample/ApiGateway/obj/Debug/netcoreapp2.2/ApiGateway.dll
 /home/administrator/Project/KubeExample/ApiGateway/obj/Debug/netcoreapp2.2/ApiGateway.pdb
+D:\Projects\kubeexample\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.deps.json
+D:\Projects\kubeexample\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.runtimeconfig.json
+D:\Projects\kubeexample\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.runtimeconfig.dev.json
+D:\Projects\kubeexample\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.dll
+D:\Projects\kubeexample\ApiGateway\bin\Debug\netcoreapp2.2\ApiGateway.pdb
+D:\Projects\kubeexample\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.csprojAssemblyReference.cache
+D:\Projects\kubeexample\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.csproj.CoreCompileInputs.cache
+D:\Projects\kubeexample\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.RazorAssemblyInfo.cache
+D:\Projects\kubeexample\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.RazorAssemblyInfo.cs
+D:\Projects\kubeexample\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.AssemblyInfoInputs.cache
+D:\Projects\kubeexample\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.AssemblyInfo.cs
+D:\Projects\kubeexample\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.RazorTargetAssemblyInfo.cache
+D:\Projects\kubeexample\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.dll
+D:\Projects\kubeexample\ApiGateway\obj\Debug\netcoreapp2.2\ApiGateway.pdb

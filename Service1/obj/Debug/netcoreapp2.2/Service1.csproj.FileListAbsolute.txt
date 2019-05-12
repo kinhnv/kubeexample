@@ -12,3 +12,17 @@
 /home/administrator/Project/KubeExample/Service1/obj/Debug/netcoreapp2.2/Service1.RazorTargetAssemblyInfo.cache
 /home/administrator/Project/KubeExample/Service1/obj/Debug/netcoreapp2.2/Service1.dll
 /home/administrator/Project/KubeExample/Service1/obj/Debug/netcoreapp2.2/Service1.pdb
+D:\Projects\kubeexample\Service1\bin\Debug\netcoreapp2.2\Service1.deps.json
+D:\Projects\kubeexample\Service1\bin\Debug\netcoreapp2.2\Service1.runtimeconfig.json
+D:\Projects\kubeexample\Service1\bin\Debug\netcoreapp2.2\Service1.runtimeconfig.dev.json
+D:\Projects\kubeexample\Service1\bin\Debug\netcoreapp2.2\Service1.dll
+D:\Projects\kubeexample\Service1\bin\Debug\netcoreapp2.2\Service1.pdb
+D:\Projects\kubeexample\Service1\obj\Debug\netcoreapp2.2\Service1.csprojAssemblyReference.cache
+D:\Projects\kubeexample\Service1\obj\Debug\netcoreapp2.2\Service1.csproj.CoreCompileInputs.cache
+D:\Projects\kubeexample\Service1\obj\Debug\netcoreapp2.2\Service1.RazorAssemblyInfo.cache
+D:\Projects\kubeexample\Service1\obj\Debug\netcoreapp2.2\Service1.RazorAssemblyInfo.cs
+D:\Projects\kubeexample\Service1\obj\Debug\netcoreapp2.2\Service1.AssemblyInfoInputs.cache
+D:\Projects\kubeexample\Service1\obj\Debug\netcoreapp2.2\Service1.AssemblyInfo.cs
+D:\Projects\kubeexample\Service1\obj\Debug\netcoreapp2.2\Service1.RazorTargetAssemblyInfo.cache
+D:\Projects\kubeexample\Service1\obj\Debug\netcoreapp2.2\Service1.dll
+D:\Projects\kubeexample\Service1\obj\Debug\netcoreapp2.2\Service1.pdb

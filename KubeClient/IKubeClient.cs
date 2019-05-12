@@ -1,4 +1,4 @@
-﻿using KubeClient.Configurations;
+﻿using KubeClient.Objects;
 using System;
 using System.Collections.Generic;
 using System.Text;

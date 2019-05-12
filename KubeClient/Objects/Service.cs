@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace KubeClient.Configurations
+namespace KubeClient.Objects
 {
     public class Service
     {

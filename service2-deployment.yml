@@ -12,6 +12,16 @@ spec:
       labels:
         app: service2
     spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                - key: kubernetes.io/hostname
+                  operator: In
+                  values:
+                    - kinh-pc
+                    - ubuntu
       containers:
       - name: service2
         image: kinhnv1801/kubeexample:service2

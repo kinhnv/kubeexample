@@ -12,5 +12,8 @@ namespace KubeClient.Objects
 
         [JsonProperty("spec")]
         public ServiceSpec Spec { get; set; }
+
+        [JsonProperty("status")]
+        public ServiceStatus Status { get; set; }
     }
 }

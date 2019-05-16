@@ -8,6 +8,6 @@ namespace KubeClient.Objects
     public class ServiceStatusLoadBalancer
     {
         [JsonProperty("ingress")]
-        public ServiceStatusLoadBanlancerIngress Ingress { get; set; }
+        public ServiceStatusLoadBanlancerIngress[] Ingress { get; set; }
     }
 }

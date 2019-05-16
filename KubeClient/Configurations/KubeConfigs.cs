@@ -6,6 +6,7 @@ namespace KubeClient.Configurations
 {
     public class KubeConfigs
     {
+        public string Host { get; set; }
         public string Server { get; set; }
 
         public string ClientCertificateData { get; set; }

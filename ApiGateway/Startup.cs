@@ -26,7 +26,7 @@ namespace ApiGateway
             services.AddSingleton(new KubeConfigs
             {
                 Host = Configuration["Kubernetes:Host"],
-                Server = Configuration["Kubernetes:Server"],
+                ApiServerPost = Configuration["Kubernetes:ApiServerPost"],
                 ClientCertificateData = Configuration["Kubernetes:ClientCertificateData"],
                 ClientCertificateKeyData = Configuration["Kubernetes:ClientCertificateKeyData"]
             });
@@ -34,13 +34,13 @@ namespace ApiGateway
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IKubeClient kubeClient)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, KubeConfigs configs, IKubeClient kubeClient)
         {
             app.UseDeveloperExceptionPage();
             app.Run(async (context) =>
             {
-                var host = Configuration["Kubernetes:Host"];
-                var service = await kubeClient.GetServiceAsync("friendlyhello");
+                var host = configs.Host;
+                var service = await kubeClient.GetServiceAsync("service-service2");
                 var port = service.Spec.Ports[0].NodePort;
                 if (service.Status != null && service.Status.LoadBalancer != null && service.Status.LoadBalancer.Ingress.Any())
                 {
@@ -50,7 +50,7 @@ namespace ApiGateway
                 {
                     BaseAddress = new Uri($"http://{host}:{port}")
                 };
-                var res = await client.GetAsync("/");
+                var res = await client.GetAsync("/api/values");
                 var content = await res.Content.ReadAsStringAsync();
                 context.Response.Headers.Add("content-type", "application/json");
                 await context.Response.WriteAsync(content);

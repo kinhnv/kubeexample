@@ -18,7 +18,7 @@ namespace KubeClient
 {
     public class KubeClient : IKubeClient
     {
-        HttpClient _httpClient;
+        private readonly HttpClient _httpClient;
 
         public KubeClient(KubeConfigs configs)
         {
@@ -26,7 +26,7 @@ namespace KubeClient
             httpClientHandler.ClientCertificates.Add(GeneratePfx(configs.ClientCertificateData, configs.ClientCertificateKeyData));
             httpClientHandler.ServerCertificateCustomValidationCallback = (sender, certificate, chain, sslPolicyErrors) => true;
             _httpClient = new HttpClient(httpClientHandler);
-            _httpClient.BaseAddress = new Uri("https://192.168.99.100:6443");
+            _httpClient.BaseAddress = new Uri($"https://{configs.Host}:{configs.ApiServerPost}");
         }
 
         public async Task<Service> GetServiceAsync(string serviceName)
